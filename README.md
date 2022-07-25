@@ -16,20 +16,32 @@ Neovim configuration for personal use
 ## Installation
 
 1. install Vundle
-```sh
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```
+   ```sh
+   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+   ```
 
 2. clone this repository
-```sh
-git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
-```
+   ```sh
+   git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
+   ```
 
 3. execute `:PluginInstall` in your neovim to install plugins
 
-4. (optional) execute `pip install pynvim` for python support
+4. (optional) python support
 
-5. enjoy yourself~
+    ```sh
+    pip install pynvim
+    ```
+
+5. (optional) php support
+
+    ```sh
+    cd ~/.vim/bundle/phpactor
+    composer install
+    sudo ln -s ~/.vim/bundle/phpactor/bin/phpactor /usr/local/bin/
+    ```
+
+6. enjoy yourself~
 
 
 ## Custom keymaps
