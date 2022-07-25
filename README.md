@@ -61,6 +61,7 @@ Neovim configuration for personal use
 | `<Leader> !`        | run a command        |
 | `<Leader> fs`       | save buffer          |
 | `<Leader> fj`       | explore              |
+| `<Leader> fr`       | find references      |
+| `<Leader> ff`       | find files           |
 | `<Leader> bx`       | delete buffer        |
 | `<Leader> bb`       | toggle tagbar        |
-| `<Leader> fr`       | find references      |
