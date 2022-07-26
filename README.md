@@ -65,3 +65,5 @@ Neovim configuration for personal use
 | `<Leader> ff`       | find files           |
 | `<Leader> bx`       | delete buffer        |
 | `<Leader> bb`       | toggle tagbar        |
+| `<Leader> hh`       | resize window        |
+| `<Leader> ll`       | resize window        |
